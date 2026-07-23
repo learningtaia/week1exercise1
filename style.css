@@ -53,3 +53,35 @@ h1, h2, h3 {
     max-width: 100%;
     height: auto;
 }
+
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+}
+
+thead {
+    color: #fff;
+    background-color: mediumpurple;
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    padding: 8px 8px 8px 16px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+}
+
+th.third {
+    width: 33.3333%;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
